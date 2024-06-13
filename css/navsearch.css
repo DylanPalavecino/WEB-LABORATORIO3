@@ -1,0 +1,88 @@
+.navsearch {
+    display: flex;
+    background-color: crimson;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.navimg {
+    flex: .5; 
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+}
+
+.navimg img {
+    height: 100px;
+    max-width: 100%;
+}
+
+.navbusqueda {
+    flex: 2; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.navbusqueda input {
+    width: 80%; 
+    border-radius: 5px;
+    height: 50px;
+    max-width: 800px;
+    border-color: var(--color-secondary-dark);
+    outline: none;
+    font-size: 1rem;
+    color: black;
+}
+.navbusqueda button{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.login-cart {
+    flex: .5;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+    white-space: nowrap;
+    
+}
+.login-cart button{
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.login-cart button b{
+    margin: auto;
+    flex: 1;
+    color: black;
+    height: auto;
+    
+}
+.login-cart button i{
+    height: auto;
+    margin: auto;
+    flex: 1;
+    font-size: 1.5rem;
+    color: crimson;
+}
+
+.navsearch button:hover{
+    
+    background-color: rgba(139,0,0,0.3);
+    
+}

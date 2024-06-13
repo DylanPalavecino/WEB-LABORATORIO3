@@ -1,0 +1,78 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navsearch.css";
+@import "navbar.css";
+@import "footer.css";
+@import "componentes.css";
+@import "contacto.css";
+@import "responsive.css"; 
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: rgb(27, 27, 27);
+
+}
+
+.slider-box {
+    
+    width: auto;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.slider-box ul{
+
+    display: flex;
+    padding: 5px;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+
+
+.slider-box img{
+    width: 100%;
+    
+}
+
+
+.logo-central {
+    width: auto;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    33.33% { margin-left: 0; }
+
+    40% { margin-left: -100%; }
+    73.33% { margin-left: -100%; }
+
+    80% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}  
