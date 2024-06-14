@@ -41,47 +41,5 @@
     .navimg {
         display:none
     }
-    .fb-style, .x-style, .ig-style, .li-style {
-        flex-direction: column;
-        width: auto;
-
-    }
-    .home-logo {
-        display: none;
-    }
-     .arriba {
-        display:block;
-        
-        font-size: 40px;
-        padding-bottom: 37%;
-        font-size: 40px;
-        margin-right: -60px;
-        margin-left: -40px;
- 
-        align-items: left;
-     }
-     
-
-     .pc-web {
-        display:none
-
-     }
-
-     .cel-web {
-        display: block;
-        width: 20%
-     }
-
-
-
-     .redes{
-        width: 25%;
-        height: 200px;
-        background-color: #5b1d34;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-    
 }
 
