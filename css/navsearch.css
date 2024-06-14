@@ -8,17 +8,7 @@
     justify-content: space-between; 
 }
 
-.navimg {
-    flex: .5; 
-    display: flex;
-    justify-content: flex-end; 
-    position: relative;
-}
 
-.navimg img {
-    height: 100px;
-    max-width: 100%;
-}
 
 .navbusqueda {
     flex: 2; 
@@ -85,4 +75,19 @@
     
     background-color: rgba(139,0,0,0.3);
     
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown{
+    padding-left: 30px;
+}
+.dropdown button{
+    color: crimson;
+}
+.dropdown-menu{
+    background-color: crimson;
+    padding-left: 30px;
 }
