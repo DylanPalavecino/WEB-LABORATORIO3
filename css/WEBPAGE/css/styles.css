@@ -1,8 +1,0 @@
-@import "header.css";
-@import "maincontainer.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
-    margin-right: 40px;
-    margin-left: 40px;
-}
