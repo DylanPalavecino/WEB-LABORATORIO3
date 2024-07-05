@@ -7,22 +7,21 @@
     <link rel="icon" type="image/png" href="img/icono.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    
-    
- 
-
 </head>
 <body>
-    <div class="noticias">
-        <p>- Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento-Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento -</p>
-        <p>- Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento-Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento -</p>
+    <div class="noticias bg-light text-center py-2">
+        <marquee behavior="scroll" direction="left" class="text-danger">
+            - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento - Envios gratis a partir de $30.000 - Todos los miercoles 10% de descuento -
+        </marquee>
     </div>
+
     <!-- HEADER -->
-    <header>
+    <header class="text-center my-4">
         <div class="logo-central" id="volver-arriba">
             <img alt="logoheader" class="logo-imagen" src="img/icono1.png" height="150">
         </div> 
     </header>
+
     <nav class="navsearch">
         <div class="dropdown">
             <a class="btn btn-danger dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,10 +39,9 @@
 
         <nav class="navbusqueda">
             <input type="text" placeholder="Buscar productos...">
-
             <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
-    
         </nav>
+
         <nav class="login-cart">
             <button>
                 <b>Iniciar Sesion </b>
@@ -52,50 +50,41 @@
             <button>
                 <i class="fa-solid fa-cart-shopping"></i>
             </button>
-            
         </nav>
-
-
     </nav>
-    <!-- BARRA DE NAVEGACION -->
-    <!-- <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="componentes.html">Componentes</a> 
-        <a href="accesorios.html">Accesorios</a> 
-        <a href="computadoras.html">Computadoras</a> 
-        <a href="contacto.html">Contacto</a>
-    </nav> -->
-    <!-- Navegador de busqueda -->
-    
-
-    
 
     <!-- CONTENIDO INDEX PRINCIPAL -->
-
-    <div class="slider-box">
-        <ul>
-            <li>
-                <img src="img/C12.webp" alt="carrusel">
-            </li>
-            <li>
-                <img src="img/C5.webp" alt="carrusel">
-            </li>
-            <li>
-                <img src="img/C8.webp" alt="carrusel">
-
-            </li>
-        </ul>
-    </div>
-
-    <div class="slider-box-items">
-        
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/C12.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/C5.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/C8.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <!-- CONTENIDO FOOTER -->
     <footer>
         <div class="footer-container">
             <div class="redes">
-
                 <a href="https://www.facebook.com" target="_blank" class="fb-style">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
@@ -108,33 +97,23 @@
                 <a href="https://www.linkedin.com" target="_blank" class="li-style">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-
             </div>
             <div class="sobreNosotros">
                 <a href="#" class="pc-web"> Contactanos</a>
                 <a href="#" class="pc-web"> Terminos y condiciones</a>
-            
-                
                 <a href="#" class="cel-web"><i class="fa-solid fa-phone" alt="Contactanos"></i> Contactanos</a>
                 <a href="#" class="cel-web"><i class="fa-solid fa-file-contract" alt="Terminos y condiciones"></i> Terminos y condiciones</a>
-        
             </div>
-
             <div class="perrito">
                 <a href="#">
                     <i class="fa-solid fa-dog"></i>
                 </a>
             </div>
         </div>
-
     </footer>
-    
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5bd935afee.js" crossorigin="anonymous"></script>
 </body>
-<script src="https://kit.fontawesome.com/5bd935afee.js" crossorigin="anonymous"></script>
-
-
 </html>

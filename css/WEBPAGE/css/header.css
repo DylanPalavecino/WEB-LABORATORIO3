@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    
+}
+
+header button{
+    
+    font-weight: 500;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    font-family: 'Roboto Condensed', bold;
+}
+header button:hover{
+    transform: scale(1.2);
+}
+.btn-secondary dropdown-toggle{
+    background-color: red;
+}
+
+div .user-cart{
+    flex: 1;
+    display: flex;
+
+}
+div .menu{
+    flex: 1;
+    display: flex;
+}
+
+
